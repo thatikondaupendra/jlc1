@@ -16,7 +16,7 @@ public class Lab4 {
 		try {
 		conn=JDBCUtil.getConnection();
 		//prepare sql statement
-		String SQL="select * from mycustomers";
+		String SQL="select * from mycustomers2";
 		//statement creation
 		ps=conn.prepareStatement(SQL);
 		
